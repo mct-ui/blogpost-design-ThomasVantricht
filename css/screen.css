@@ -8,7 +8,7 @@ html {
     font-size: 16px;
     line-height: 1.5;
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
-    color: #111;
+    color: #5C6366;
     padding: 48px 24px 24px;
 }
 
@@ -25,13 +25,13 @@ body {
  */
 
 ::-moz-selection {
-    background: #e85e00;
+    background: #00E6A1;
     color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: #e85e00;
+    background: #00E6A1;
     color: white;
     text-shadow: none;
 }
@@ -53,24 +53,19 @@ img {
     Default markup for typographic elements
 */
 
-h1 {
-    font-family: "Times New Roman", serif;
-    font-size: 36px;
-    font-weight: normal;
-    line-height: 40px;
-    margin: 0 0 24px;
-}
-
 h2 {
     font-size: 23px;
     line-height: 32px;
     margin: 0 0 24px;
 }
-
 h3 {
     font-size: 18px;
     line-height: 24px;
     margin: 0 0 24px;
+}
+
+h1, h2, h3 {
+  color: #17181A;
 }
 
 h4,
